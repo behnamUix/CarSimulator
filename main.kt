@@ -1,4 +1,4 @@
-//Code by BehnamUix
+//Coded by BehnamUix
 fun main() {
     print("Enter car speed (km/h): ")
     val speed = readln().toInt()
@@ -26,6 +26,7 @@ fun carSim(speed: Int, type: String) {
         }
     }!!
 
+//Physic:
     val d = (speedMs * speedMs) / (2 * mu * g)
 
     println("speed:${speed}km/h\nkhat tormoz shoma %.2f meters!".format(d))
